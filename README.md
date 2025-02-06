@@ -41,7 +41,7 @@ BitCheats is a premium cheat provider offering high-quality, undetectable cheats
 
 ## 🚀 Getting Started
 
-1. Visit our [official website](https://bitcheats.net/) to browse available cheats.
+1. Visit the [official website](https://bitcheats.net/) to browse available cheats.
 2. Apply as a **reseller** or **cheat developer** if you're interested in working with us.
 3. Use our **Reseller Loader** for easy access to our tools.
 4. For any assistance, check out our [Online Ticket Support](https://bitcheats.net/app/support).
