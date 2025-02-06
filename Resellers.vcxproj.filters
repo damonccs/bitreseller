@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c4b28a92-a06a-4a1c-a2eb-eccc15bad4b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\fileutils">
+      <UniqueIdentifier>{a250e476-da72-4647-b80d-ccfd4d92450a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{3aafe7aa-e1dd-46e1-8caf-2622df50f60c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\ImGui">
+      <UniqueIdentifier>{3561406a-b872-4919-bf06-01f9536851dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{f7294256-1b74-44f5-8dfd-3418fb272cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LoaderThreads">
+      <UniqueIdentifier>{0ccaf09f-4582-4d18-8a4c-0d1d3d186e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server">
+      <UniqueIdentifier>{fa1233a2-884a-402f-be1d-ca0d7cf9d1e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Gui">
+      <UniqueIdentifier>{e86e59cc-f662-492c-bd36-5268efb55404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu\Gui\Icons">
+      <UniqueIdentifier>{74899e3f-fdc5-4017-96bf-c798c0e0f42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Security">
+      <UniqueIdentifier>{1f16241a-8597-4c9d-a1f9-f5cd67ff9994}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Includes\fileutils\fileutils.cpp">
+      <Filter>Utils\fileutils</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\LoaderThreads\LoaderThreads.cpp">
+      <Filter>LoaderThreads</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_demo.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_draw.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_impl_win32.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_tables.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_widgets.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Includes\Menu\imgui\imgui_impl_dx11.cpp">
+      <Filter>Menu\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Gui.cpp">
+      <Filter>Menu\Gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\fileutils\fileutils.h">
+      <Filter>Utils\fileutils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\LoaderThreads\LoaderThreads.h">
+      <Filter>LoaderThreads</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imconfig.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imgui.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imgui_impl_win32.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imgui_internal.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imstb_rectpack.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imstb_textedit.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imstb_truetype.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\stb_image.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\imgui\imgui_impl_dx11.h">
+      <Filter>Menu\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Singleton.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Server\Server.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Includes\Menu\Gui\Gui.h">
+      <Filter>Menu\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\Gui\bytes.hpp">
+      <Filter>Menu\Gui\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Menu\Gui\Icons.h">
+      <Filter>Menu\Gui\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Security\xor.h">
+      <Filter>Utils\Security</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="ThirdParty\libcurl.lib" />
+    <Library Include="ThirdParty\bitauth_lib.lib" />
+  </ItemGroup>
+</Project>
