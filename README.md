@@ -17,9 +17,6 @@ BitCheats is a premium cheat provider offering high-quality, undetectable cheats
 ### 🎮 BitCheats Discord
 [Join the Community](https://discord.gg/bitchairs)
 
-### 📥 Reseller Loader
-[Download RLoader](https://bitcheats.net/api/downloads/RLoader.exe)
-
 ### 📌 BitCheats API Documentation
 [View API Reference](https://bitcheats-api.apidocumentation.com/reference)
 
@@ -31,11 +28,11 @@ BitCheats is a premium cheat provider offering high-quality, undetectable cheats
 ## My Personal Links
 
 ### 💻 My Discord
-[Join My Discord Server](https://discord.gg/dreadfn)
+[Join My Discord Server](https://discord.gg/kayzen)
 
 ### 🌐 My Websites
-- [Dread Software](https://dreadsoftware.xyz/)
-- [DamonCC](https://damoncc.xyz/)
+- [Kayzen Cheats](https://kayzen.sellhub.cx/)
+- [DamonCC](https://www.damonccs.fyi/)
 
 ---
 
